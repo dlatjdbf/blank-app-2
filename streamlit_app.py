@@ -43,7 +43,7 @@ if st.session_state.selected:
     sel = st.session_state.selected
     info = info_map.get(sel, {})
 
-    st.markdown(f"<h2 style='color:#000;'>{sel} 상세 정보</h2>", unsafe_allow_html=True)
+  
 
     # 부작용 카드
     st.markdown(f"""
